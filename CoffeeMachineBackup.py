@@ -118,8 +118,6 @@ def process_coins(choice):
 
     elif total_change_inserted >= cost_of_drink:
         refund = total_change_inserted - cost_of_drink
-        print(total_change_inserted)
-        print(cost_of_drink)
         print(f"Thank You!\nyour change is ${'{:.2f}'.format(refund)}")
     return 0
 
